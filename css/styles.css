@@ -57,13 +57,16 @@ body {
 /* heder */
 
 .nav-link {
-  font-family: 500;
+  font-family: var(--main-font-roboto);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-
+.studio, .portfolio {
+  color: var(--accent-color);
+}
 .aside-link-phone,
 .aside-link-mail {
   font-family: var(--main-font-roboto);
